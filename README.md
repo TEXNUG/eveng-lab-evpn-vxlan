@@ -7,8 +7,9 @@ EVE-NG Multi-Tenant EVPN/VXLAN Lab topology
 
 ## Overview
 
-<p>This lab represents a dual datacenter network design, interconnected via L3 IP WAN / Core.  Local DataCenter Layer3 Leaf/Spine networks with EVPN overlay (eBGP over eBGP) within each DataCenter offer <span style="color:red">RED</span>, <span style="color:blue">BLUE</span>, and <span style="color:green">GREEN</span> tenant services for demo'ing Layer2 and Layer3 network availability.  An additional Layer3 network (RED) is attached to the IP WAN Core network, highlighting insertion of arbitrary Layer3 services into the overlay.
-<p>The Out-Of-Band (OOB) management network is a bridge to a network interface on the EVE-NG host offering DHCP services as well as client connectivity to network nodes.
+   This lab represents a dual datacenter network design, interconnected via L3 IP WAN / Core.  
+   Local DataCenter Layer3 Leaf/Spine networks with EVPN overlay (eBGP over eBGP) within each DataCenter offer <span style="color:red">RED</span>, <span style="color:blue">BLUE</span>, and <span style="color:green">GREEN</span> tenant services for demo'ing Layer2 and Layer3 network availability.  An additional Layer3 network (RED) is attached to the IP WAN Core network, highlighting insertion of arbitrary Layer3 services into the overlay.
+   The Out-Of-Band (OOB) management network is a bridge to a network interface on the EVE-NG host offering DHCP services as well as client connectivity to network nodes.
 
 
 ## Node Details
