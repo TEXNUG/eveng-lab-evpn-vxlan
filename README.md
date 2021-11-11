@@ -2,7 +2,7 @@
 EVE-NG Multi-Tenant EVPN/VXLAN Lab topology 
 
 <p align="center">
-    <img src="media/lab-topo-2021_11_11.png" width="600"/>
+    <img src="media/lab-topo-2021_11_11.png" width="800"/>
 </p>
 
 ## Available content
