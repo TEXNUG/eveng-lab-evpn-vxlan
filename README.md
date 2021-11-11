@@ -13,18 +13,18 @@ EVE-NG Multi-Tenant EVPN/VXLAN Lab topology
 
 ## Node Details
 
-# FRR01:  WAN Router 1<br>
+### FRR01:  WAN Router 1<br>
 - Open Source Node - debian 10 system running FRR
 - Attachment point for VSR1K (L3 RED network extension)
-<p>FRR02:  WAN Router 2
+### FRR02:  WAN Router 2
 - Open Source Node - debian 10 system running FRR
 - Attachment point for RouteServer1 (FRR EVPN Route Server)
-<p>FRR03:  WAN Router 3
+### FRR03:  WAN Router 3
 - Open Source Node - debian 10 system running FRR
 - Attachment point for DataCenter2
-<p>FRR04:  WAN Router 4
+### FRR04:  WAN Router 4
 - Open Source Node - debian 10 system running FRR
-<p>FRR05:  WAN Router 5
+### FRR05:  WAN Router 5
 - Open Source Node - debian 10 system running FRR
 - Attachment point for DataCenter1
 --   runs ISI (WAN), BGP (DC1 peer)
