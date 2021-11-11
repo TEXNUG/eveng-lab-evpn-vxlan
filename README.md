@@ -27,39 +27,39 @@ EVE-NG Multi-Tenant EVPN/VXLAN Lab topology
 ### FRR05:  WAN Router 5
 - Open Source Node - debian 10 system running FRR
 - Attachment point for DataCenter1
---   runs ISI (WAN), BGP (DC1 peer)
+- runs ISIS (WAN), BGP (DC1 peer)
 <p>
-<p>DC1SP1:  DataCenter 1 Spine
-  Open Source Node - debian 10 system running FRR
-  Attachment point for DC1 Leafs
-   runs BGP (L3LS underlay for DC)
-<p>DC1LF1:  DataCenter 1 Leaf1
-  Arista vEOS-Lab (freely available)
-  Attachment points:
-    Host1 (tenant GREEN)
-    Host3 (tenant BLUE)
-  runs BGP (eBGP underlay, eBGP Overlay)
-<p>DC1LF2:  DataCenter 1 Leaf2
-  Arista vEOS-Lab (freely available)
-  Attachment points:
-    Host5 (tenant RED)
-    Host7 (tenant GREEN)
-  runs BGP (eBGP underlay, eBGP Overlay)
+### DC1SP1:  DataCenter 1 Spine
+- Open Source Node - debian 10 system running FRR
+- runs BGP (L3LS underlay for DC)
+- Attachment point for DC1 Leafs
+### DC1LF1:  DataCenter 1 Leaf1
+- Arista vEOS-Lab (freely available)
+- runs BGP (eBGP underlay, eBGP Overlay)
+- Attachment points:
+  - Host1 (tenant GREEN)
+  - Host3 (tenant BLUE)
+### DC1LF2:  DataCenter 1 Leaf2
+- Arista vEOS-Lab (freely available)
+- runs BGP (eBGP underlay, eBGP Overlay)
+- Attachment points:
+  - Host5 (tenant RED)
+  - Host7 (tenant GREEN)
 <p>
-<p>DC2SP1:  DataCenter 2 Spine
-  Open Source Node - debian 10 system running FRR
-  Attachment point for DC1 Leafs
-   runs BGP (L3LS underlay for DC)
-<p>DC2LF1:  DataCenter 2 Leaf1
-  Arista vEOS-Lab (freely available)
-  Attachment points:
-    Host2 (tenant GREEN)
-    Host4 (tenant BLUE)
-  runs BGP (eBGP underlay, eBGP Overlay)
-<p>DC2LF2:  DataCenter 2 Leaf2
-  Arista vEOS-Lab (freely available)
-  Attachment points:
-    Host6 (tenant RED)
-    Host8 (tenant GREEN)
-  runs BGP (eBGP underlay, eBGP Overlay)
+### DC2SP1:  DataCenter 2 Spine
+- Open Source Node - debian 10 system running FRR
+- runs BGP (L3LS underlay for DC)
+- Attachment point for DC1 Leafs
+### DC2LF1:  DataCenter 2 Leaf1
+- Arista vEOS-Lab (freely available)
+- runs BGP (eBGP underlay, eBGP Overlay)
+- Attachment points:
+  - Host2 (tenant GREEN)
+  - Host4 (tenant BLUE)
+### DC2LF2:  DataCenter 2 Leaf2
+- Arista vEOS-Lab (freely available)
+- runs BGP (eBGP underlay, eBGP Overlay)
+- Attachment points:
+  - Host6 (tenant RED)
+  - Host8 (tenant GREEN)
 <p>
