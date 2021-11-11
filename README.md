@@ -17,7 +17,7 @@ The Out-Of-Band (OOB) management network is a bridge to a network interface on t
 
 
 ## Node Details
-### FRR01:  WAN Router 1<br>
+### [link:FRR01](https://github.com/TEXNUG/eveng-lab-evpn-vxlan/blob/main/node-configs/FRR01.cfg):  WAN Router 1<br>
 - Open Source Node - debian 10 system running FRR
 - Attachment point for VSR1K (L3 RED network extension)
 ### FRR02:  WAN Router 2
