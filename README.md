@@ -7,7 +7,7 @@ EVE-NG Multi-Tenant EVPN/VXLAN Lab topology
 
 ## Overview
 
-<p>This lab represents a dual datacenter network design, interconnected via L3 IP WAN / Core.  Local DataCenter Layer3 Leaf/Spine networks with EVPN overlay (eBGP over eBGP) within each DataCenter offer RED, BLUE, and GREEN tenant services for demo'ing Layer2 and Layer3 network availability.  An additional Layer3 network (RED) is attached to the IP WAN Core network, highlighting insertion of arbitrary Layer3 services into the overlay.
+<p>This lab represents a dual datacenter network design, interconnected via L3 IP WAN / Core.  Local DataCenter Layer3 Leaf/Spine networks with EVPN overlay (eBGP over eBGP) within each DataCenter offer <span style="color:red">RED</span>, <span style="color:blue">BLUE</span>, and <span style="color:green">GREEN</span> tenant services for demo'ing Layer2 and Layer3 network availability.  An additional Layer3 network (RED) is attached to the IP WAN Core network, highlighting insertion of arbitrary Layer3 services into the overlay.
 <p>The Out-Of-Band (OOB) management network is a bridge to a network interface on the EVE-NG host offering DHCP services as well as client connectivity to network nodes.
 
 
@@ -36,14 +36,14 @@ EVE-NG Multi-Tenant EVPN/VXLAN Lab topology
 - Arista vEOS-Lab (freely available)
 - runs BGP (eBGP underlay, eBGP Overlay)
 - Attachment points:
-  - Host1 (tenant GREEN)
-  - Host3 (tenant BLUE)
+  - <span style="color:green">Host1 (tenant GREEN)</span>
+  - <span style="color:blue">Host3 (tenant BLUE)</span>
 ### DC1LF2:  DataCenter 1 Leaf2
 - Arista vEOS-Lab (freely available)
 - runs BGP (eBGP underlay, eBGP Overlay)
 - Attachment points:
-  - Host5 (tenant RED)
-  - Host7 (tenant GREEN)
+  - <span style="color:red">Host5 (tenant RED)</span>
+  - <span style="color:green">Host7 (tenant GREEN)</span>
 ##
 ### DC2SP1:  DataCenter 2 Spine
 - Open Source Node - debian 10 system running FRR
@@ -53,12 +53,12 @@ EVE-NG Multi-Tenant EVPN/VXLAN Lab topology
 - Arista vEOS-Lab (freely available)
 - runs BGP (eBGP underlay, eBGP Overlay)
 - Attachment points:
-  - Host2 (tenant GREEN)
-  - Host4 (tenant BLUE)
+  - <span style="color:green">Host2 (tenant GREEN)</span>
+  - <span style="color:blue">Host4 (tenant BLUE)</span>
 ### DC2LF2:  DataCenter 2 Leaf2
 - Arista vEOS-Lab (freely available)
 - runs BGP (eBGP underlay, eBGP Overlay)
 - Attachment points:
-  - Host6 (tenant RED)
-  - Host8 (tenant GREEN)
+  - <span style="color:red">Host6 (tenant RED)</span>
+  - <span style="color:green">Host8 (tenant GREEN)</span>
 ##
