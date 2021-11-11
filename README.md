@@ -44,7 +44,7 @@ EVE-NG Multi-Tenant EVPN/VXLAN Lab topology
 - Attachment points:
   - Host5 (tenant RED)
   - Host7 (tenant GREEN)
-<p>
+##
 ### DC2SP1:  DataCenter 2 Spine
 - Open Source Node - debian 10 system running FRR
 - runs BGP (L3LS underlay for DC)
@@ -61,4 +61,4 @@ EVE-NG Multi-Tenant EVPN/VXLAN Lab topology
 - Attachment points:
   - Host6 (tenant RED)
   - Host8 (tenant GREEN)
-<p>
+##
