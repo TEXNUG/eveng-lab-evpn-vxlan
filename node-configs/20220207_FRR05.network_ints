@@ -1,0 +1,36 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+source /etc/network/interfaces.d/*
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+auto ens3
+iface ens3 inet static
+  address 192.168.13.115/23
+  dns-nameservers 192.168.11.49 192.168.12.49
+  mtu 9000
+  up ip route add 192.168.0.0/16 via 192.168.12.1 dev ens3
+  up ip route add 172.16.0.0/12 via 192.168.12.1 dev ens3
+  #up ip route add default via 192.168.12.1 metric 250 dev ens3
+  down ip route del default via 192.168.12.1
+  down ip route del 192.168.0.0/16 via 192.168.12.1
+  down ip route del 1782.16.0.0/12 via 192.168.12.1
+
+auto ens4
+iface ens4 inet static
+  address 10.1.0.8/31
+  mtu 9000
+
+auto ens5
+iface ens5 inet static
+  address 10.1.0.7/31
+  mtu 9000
+
+auto ens6
+iface ens6 inet static
+  address 10.1.1.0/31
+  mtu 9000
+
