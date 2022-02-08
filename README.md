@@ -69,7 +69,7 @@ The Out-Of-Band (OOB) management network is a bridge to a network interface on t
 ##
 # HINTS AND CLUES
 ## Management Network
-- Lab was built with a bridge to EVE-NG host connected network in subnet 192.168.32.0/24 (gateway 192.168.32.1)
+- Lab was built with a bridge to EVE-NG host connected network in subnet 192.168.12.0/23 (gateway 192.168.12.1)
   - all management interface addressing is allocated from this network
   - all management routing referencing this network is to enable client / remote connectivity to lab (some nodes implement isolated management VRF to separate this traffic from "global/default" routing table, many do not)
 - Lab was built with publicly available software images; some software requires entitlement from software manufacturer; i.e. registering for an account, agreeing to terms, etc to download
